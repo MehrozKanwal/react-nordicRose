@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.auth-form {
+    max-width: 360px;
+    margin: 60px auto;
+    padding: 10px;
+    font-size: larger;
+   
+  }
+
+.auth-form input{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 218, 218);
+    padding: 10px;
+    width: 18rem;
+    font-size: 0.9em;
+    margin: 20px;
+    color: #000000;
+    font-family: 'Montserrat',Helvetica, sans-serif;
+
+}
+.auth-form input::placeholder{
+    color: black;
+
+}
+
+ .auth-form p{
+     text-align: center;
+     width: 18rem;
+     margin-left: 2rem;
+     color: rgb(102, 99, 99);
+ }
+ .auth-form a{
+    color: rgb(102, 99, 99);
+ }

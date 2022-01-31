@@ -1,0 +1,25 @@
+ /* .dash-board .dash-blogs-list{
+     float: left;
+    display: grid;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+ } 
+ .dash-board .dash-blogs-list{
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: space-between
+ }
+ .dash-board{
+     display: flex;
+     flex-direction: row;
+ }
+
+ 
+.dash-blogs-list .dash-img{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+} */

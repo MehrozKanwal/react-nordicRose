@@ -1,23 +1,40 @@
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// styles
 import './App.css';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+// import pages
+import About from './pages/about/About';
+import Blog from './pages/blog/Blog';
+import BlogArticle from './pages/blogArticle/BlogArticle';
+import Create from './pages/create/Create';
+import Dashboard from './pages/dashboard/Dashboard';
+import Login from './pages/login/Login';
+import Signup from './pages/signup/Signup';
+import { useAuthContext } from './hooks/useAuthContext';
+
 
 function App() {
+ const {user, authIsReady} = useAuthContext()
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {authIsReady &&(
+      <BrowserRouter>
+      <Navbar />
+        <Routes>
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/" element={user ? <Dashboard /> : <Signup />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/login" element={!user ? <Login />: <Dashboard />} />
+          <Route path="/signup" element={!user ? <Signup /> : <Dashboard />} />
+          <Route path="/create" element={user ? <Create /> : <Signup />} />
+          <Route path="/blogarticles/:id" element={<BlogArticle />} />
+          
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    )}
     </div>
   );
 }

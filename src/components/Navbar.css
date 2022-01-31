@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500&family=Ubuntu:wght@300&display=swap');
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(219, 218, 218);
+    
+  }
+  .navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  .navbar ul li{
+    font-family: 'Ubuntu';
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 0.7em 1em 0em 1em;
+  }
+  .navbar .logo {
+    font-family: 'Source Serif 4','Ubuntu';
+    font-weight: bold;
+    letter-spacing: 4px;
+    display: flex;
+    font-size: 1.6em;
+    align-items: center;
+    margin-right: auto;
+  }
+  
+  .navbar a {
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .navbar a:hover  {
+      padding-bottom: 1rem;
+    border-bottom: 3px solid black;
+  }
+  .navbar a:active {
+    padding-bottom: 0.5rem;
+  border-bottom: 3px solid yellow;
+}
+  .navbar .btn{
+    font-family: 'Ubuntu';
+    font-weight: 200;
+    font-size: 1em;
+    padding: .6rem ;
+    cursor: pointer;
+    margin-right: 2em;
+    border-radius: 10px;
+    border: 1px solid yellow;
+    color: #fff;
+    background-color: grey;
+   
+  }
+  
+  .navbar .btn:hover {
+    color: #000;
+    background-color: grey;
+  }
+   .user-img{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+    margin-right: 10px;
+  }
+  .signupbtn-link{
+    
+    color: white;
+    background-color: grey;
+    padding: 1.2rem;
+    border-radius:2rem;
+    
+  
+  }
