@@ -24,6 +24,7 @@ const { logout, isPending } = useLogout()
           </li>
           <li>
             <NavLink to="/create">
+  
               <img src={AddIcon} alt="add project icon" />
               <span>Create Blog</span>
             </NavLink>
