@@ -32,7 +32,7 @@ const { logout, isPending } = useLogout()
                 <div className='logout'>
               <img src={LogoutIcon} alt="dashboard icon" />
               {!isPending &&  <span onClick={logout}>Logout</span>}
-              {isPending &&  <span>Logging out...</span>}
+              {isPending &&  <span>Logging out</span>}
                </div>
             </li>
         </ul>
