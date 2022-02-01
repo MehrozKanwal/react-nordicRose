@@ -36,7 +36,7 @@ export default function BlogArticle() {
         
         
         <div className='all-articles' >
-          <h1>What to read next</h1>
+          <h1>What to read next ...</h1>
           </div>
        <div className='other-blogs'>
         {!documents && <div className="loading">Loading...</div>}
