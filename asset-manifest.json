@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-nordicRose/static/css/main.3c3e4c65.css",
-    "main.js": "/react-nordicRose/static/js/main.474b4936.js",
+    "main.js": "/react-nordicRose/static/js/main.df7bfd46.js",
     "index.html": "/react-nordicRose/index.html",
     "static/media/logout_icon.svg": "/react-nordicRose/static/media/logout_icon.b3a0c667c068a398f83caa35dab7222c.svg",
     "static/media/dashboard_icon.svg": "/react-nordicRose/static/media/dashboard_icon.bc800f3b9286b71005c3f026ebfaa958.svg",
     "static/media/add_icon.svg": "/react-nordicRose/static/media/add_icon.376e9b6a44e5b3142f1239a3cc8504d0.svg",
     "main.3c3e4c65.css.map": "/react-nordicRose/static/css/main.3c3e4c65.css.map",
-    "main.474b4936.js.map": "/react-nordicRose/static/js/main.474b4936.js.map"
+    "main.df7bfd46.js.map": "/react-nordicRose/static/js/main.df7bfd46.js.map"
   },
   "entrypoints": [
     "static/css/main.3c3e4c65.css",
-    "static/js/main.474b4936.js"
+    "static/js/main.df7bfd46.js"
   ]
 }
