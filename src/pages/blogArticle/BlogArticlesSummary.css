@@ -42,3 +42,19 @@
     margin-top: 5rem;
     font-weight: bold;
 }
+
+.like,.comment{
+    width: 20%;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 0px 2px lightgray;
+    color: black;
+    border: 1px solid lightgray;
+    padding: 10px ;
+    font-size: 1rem;
+    padding-bottom: 13px;
+}
+.icon{
+    font-size: 1.5rem;
+}

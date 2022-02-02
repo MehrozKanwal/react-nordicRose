@@ -41,3 +41,8 @@
 .blog-details{
     display: grid;
 }
+#com-list{
+width: 60%;
+background-color: transparent;
+margin-left: 18rem;
+}
